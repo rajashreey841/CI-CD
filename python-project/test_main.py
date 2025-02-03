@@ -14,7 +14,7 @@ class Testmain(unittest.TestCase):
     def test_divide(self):
         self.assertEqual(divide(6,2),3)
         with self.assertRaises(ValueError):
-            divide(3,0)
+            divide(4,0)
 
 if __name__ == "__main__":
     unittest.main()
